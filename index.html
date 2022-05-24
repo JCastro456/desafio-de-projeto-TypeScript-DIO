@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento</title>
+</head>
+<header>
+    <div style="color:blue; text-align: center;" class="flex-container a">
+        <div><h1>Estacionamento da Jack</h1></div>
+    </div>
+</header>
+<br>
+<body style="margin-left: 20px">
+    <h2>Digite os dados do Veículo:</h2>
+    <input type="text" id="nome" placeholder="Nome do veículo: " autocomplete="off"/>
+    <input type="text" id="placa" placeholder="Placa do veículo: " autocomplete="off"/>
+    <button id="cadastrar">Cadastrar</button>
+    <br>
+    <br>
+    <table>
+        <thead>
+            <h3>Relação de veículos no Pátio</h3>
+            <br>
+            <tr>
+                <th>Nome</th>
+                <th>Placa</th>
+                <th>Entrada</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="patio"></tbody>
+    </table>
+    <script src="./script.js"></script>
+</body>
+</html>
